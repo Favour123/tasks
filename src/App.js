@@ -50,7 +50,7 @@ const InternCard = ({ intern }) => {
 };
 
 const InternDashboard = () => {
-  const [interns, setInterns] = useState(internsData);
+  const [interns] = useState(internsData);
 
   // Function to find the intern with the highest average grade
   const findTopIntern = () => {
